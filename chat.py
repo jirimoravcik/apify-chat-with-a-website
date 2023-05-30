@@ -13,7 +13,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.chat_models import ChatOpenAI
 import streamlit as st
 
-# Load environment variables from a .env file (containing OPENAI_API_KEY)
+# Load environment variables from a .env file
 load_dotenv()
 
 website_url = os.environ.get('WEBSITE_URL', 'a website')

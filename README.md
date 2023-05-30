@@ -14,9 +14,9 @@ To set up and run this project, follow these steps:
    ```
 2. Copy the `.env.example` file to `.env` and replace the variables. Here's a brief explanation of the variables in the .env file:
 
-`OPENAI_API_KEY`: Your OpenAI API key. You can obtain it from your OpenAI account dashboard.
-`APIFY_API_TOKEN`: Your Apify API token. You can obtain it from [Apify settings](https://console.apify.com/account/integrations).
-`WEBSITE_URL`: The full URL of the website you'd like to chat with.
+`OPENAI_API_KEY`: Your OpenAI API key. You can obtain it from your OpenAI account dashboard.  
+`APIFY_API_TOKEN`: Your Apify API token. You can obtain it from [Apify settings](https://console.apify.com/account/integrations).  
+`WEBSITE_URL`: The full URL of the website you'd like to chat with.  
 
 3. Run the `download.py` script to download the website's data using Apify's [Website content crawler](https://apify.com/apify/website-content-crawler).
 4. Run the Streamlit chat app, which should default to `http://localhost:8502` and allow you to chat with the website:
