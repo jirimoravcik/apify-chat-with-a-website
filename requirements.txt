@@ -1,0 +1,8 @@
+streamlit
+streamlit_chat
+langchain
+openai
+python-dotenv
+tiktoken
+chromadb
+apify-client
