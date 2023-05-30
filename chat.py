@@ -20,7 +20,6 @@ website_url = os.environ.get('WEBSITE_URL', 'a website')
 # Set the title for the Streamlit app
 st.title(f'Chat with {website_url}')
 # Set the OpenAI API key from the environment variable
-# os.environ["OPENAI_API_KEY"] = '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'
 openai.api_key = os.environ.get('OPENAI_API_KEY')
 # Create an instance of OpenAIEmbeddings
 embeddings = OpenAIEmbeddings()
